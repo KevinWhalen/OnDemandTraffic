@@ -12,7 +12,8 @@
 //error_reporting(E_ALL);
 //ini_set('display_errors', '1');
 
-//$apiKey = file_get_contents("../../bingmaps.txt");
+// Was actually inserting the key directly here
+$apiKey = file_get_contents("../../bingmaps.txt");
 
 // make an associative array of senders we know, indexed by phone number
 $people = array(
